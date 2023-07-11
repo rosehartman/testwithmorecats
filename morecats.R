@@ -10,6 +10,7 @@ catplot(x,y)
 # more stuff!
 # I like cheese
 
+
 purr <- catplot(xs=x, ys=y, cat=3, catcolor='#000000FF')
 cats(purr, -x, -y, cat=4, catcolor='#FF0000')
 
@@ -23,3 +24,4 @@ multicat(xs=rnorm(21), ys=rnorm(21),
                  catcolor=list('#33FCFF', '#FF0000', "blue", "purple", "green"),
                  canvas=c(-0.1,1.1, -0.1, 1.1),
                  xlab="some cats", ylab="other cats", main="Random Cats")
+
